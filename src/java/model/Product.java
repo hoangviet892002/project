@@ -11,21 +11,21 @@ import java.util.Date;
  *
  * @author chotr
  */
-public class product {
+public class Product {
     private int id;
     private String type;
     private String name;
-    private float price;
+    private double price;
     private String img_link;
     private String img_list;
     private Date created;
     private int view;
     private int quantity;
 
-    public product() {
+    public Product() {
     }
 
-    public product(int id, String type, String name, float price, String img_link, String img_list, Date created, int view, int quantity) {
+    public Product(int id, String type, String name, float price, String img_link, String img_list, Date created, int view, int quantity) {
         this.id = id;
         this.type = type;
         this.name = name;
@@ -61,7 +61,7 @@ public class product {
         this.name = name;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 

@@ -9,14 +9,14 @@ package model;
  *
  * @author chotr
  */
-public class admin extends account{
+public class Admin extends Account{
     private int id;
     private String name;
 
-    public admin() {
+    public Admin() {
     }
 
-    public admin(int id, String name, String user, String password) {
+    public Admin(int id, String name, String user, String password) {
         super(user, password);
         this.id = id;
         this.name = name;

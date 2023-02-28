@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author chotr
  */
-public class user extends account {
+public class User extends Account {
 
     private int id;
     private Date create;
@@ -19,7 +19,7 @@ public class user extends account {
     private String phone;
     private String address;
 
-    public user() {
+    public User() {
     }
 
     public String getPhone() {
@@ -38,7 +38,7 @@ public class user extends account {
         this.address = address;
     }
 
-    public user(int id, Date create, String email, String phone, String address, String user, String password) {
+    public User(int id, Date create, String email, String phone, String address, String user, String password) {
         super(user, password);
         this.id = id;
         this.create = create;

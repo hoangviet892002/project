@@ -9,14 +9,14 @@ package model;
  *
  * @author chotr
  */
-public class account {
+public class Account {
     private String user;
     private String password;
 
-    public account() {
+    public Account() {
     }
 
-    public account(String user, String password) {
+    public Account(String user, String password) {
         this.user = user;
         this.password = password;
     }

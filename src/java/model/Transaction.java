@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author chotr
  */
-public class transaction {
+public class Transaction {
     private int id;
     private int status;
     private int user_id;
@@ -25,10 +25,10 @@ public class transaction {
     private int quantity;
     private int product_id;
 
-    public transaction() {
+    public Transaction() {
     }
 
-    public transaction(int id, int status, int user_id, String user_name, String user_mail, String user_phone, float amount, String massage, Date created, String user_address, int quantity, int product_id) {
+    public Transaction(int id, int status, int user_id, String user_name, String user_mail, String user_phone, float amount, String massage, Date created, String user_address, int quantity, int product_id) {
         this.id = id;
         this.status = status;
         this.user_id = user_id;

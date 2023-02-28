@@ -9,18 +9,18 @@ package model;
  *
  * @author chotr
  */
-public class order {
+public class Order {
     private int id;
     private int id_transaction;
     private int status;
 
-    public order(int id, int id_transaction, int status) {
+    public Order(int id, int id_transaction, int status) {
         this.id = id;
         this.id_transaction = id_transaction;
         this.status = status;
     }
 
-    public order() {
+    public Order() {
     }
 
     public int getId() {
